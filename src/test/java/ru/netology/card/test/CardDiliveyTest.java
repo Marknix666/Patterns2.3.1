@@ -45,7 +45,7 @@ public class CardDiliveyTest {
                 .shouldBe(visible);
         $("[data-test-id='replan-notification'] button").click();
         $("[data-test-id='success-notification'] .notification__content")
-                .shouldHave(exactText("Встреча успешно запланирована на" + SecondsMeetingDate))
+                .shouldHave(exactText("Встреча успешно запланирована на " + SecondsMeetingDate))
                 .shouldBe(visible);
     }
 }
